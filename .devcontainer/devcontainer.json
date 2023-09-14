@@ -1,0 +1,12 @@
+{
+  // "image": "node:18-alpine",
+  "build": { "dockerfile": "Dockerfile" },
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["streetsidesoftware.code-spell-checker"]
+    }
+  },
+
+  "forwardPorts": [3000]
+}
